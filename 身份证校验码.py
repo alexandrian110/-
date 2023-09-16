@@ -28,6 +28,6 @@ for i in range(1000):
             sum = L2 + eval(t[0])*8 + eval(t[1])*4 + eval(t[2])*2
             C18 = change2(sum%11)
             print("{:0>3}".format(i)+C18, end = " ")
-            coumt += 1
+            count += 1
 print("\n")
 print("共{}个".format(count))
